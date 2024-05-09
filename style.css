@@ -1,0 +1,45 @@
+*{
+    text-align: center;
+    background-color:black;
+    font-family: sans-serif;
+}
+.counterhead{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 12%;
+    font-size: 40px;
+}
+.counterbtn{
+ background-color: blue;
+ color: white;
+ padding: 10px;
+ border: none;
+ border: 2px solid white;
+ border-radius: 15px;
+ cursor: pointer;
+ font-size: larger;
+ margin-right: 1%;
+ transition: all 0.5s;
+}
+.counterbtn:hover{
+background-color: white;
+color: blue;
+border: 2px solid blue;
+transition: all 0.5s;
+}
+#increm{
+color:white;
+background-color:blue;
+width:10%;
+margin: 0 auto;
+margin-top: 4%;
+margin-bottom: 4%;
+border-radius: 15px;
+border: 2px solid white;
+padding: 5px;
+}
