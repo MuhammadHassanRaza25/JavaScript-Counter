@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Counter</title>
+    <link rel="icon" href="images/countericon.webp" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
 
-   <h1 class="counterhead" data-aos="fade-down">JavaScript Counter</h1>
-   <h1 id="increm" data-aos="fade-down">0</h1>
-   <button class="counterbtn" onclick="increment()">Increment +</button>
-   <button class="counterbtn" onclick="decrement()">decrement -</button>
-   <button class="counterbtn" onclick="reset()">Reset</button>
-
+   <h1 class="counterhead" data-aos="zoom-in">JavaScript Counter</h1>
+   <h1 id="increm" data-aos="zoom-in">0</h1>
+   <div data-aos="zoom-in">
+   <button class="counterbtn" onclick="increment()">+</button>
+   <button class="counterbtn" onclick="decrement()">-</button>
+   <button class="counterbtn" onclick="reset()"><i class="bi bi-arrow-counterclockwise"></i></button>
+   </div>
    <h4 style="margin-top: 10%; font-size: small; color: white;">CopyRight &#169; 2024 <span style="color: blue;">By</span> Muhammad Hassan Raza</h4>
 
    
