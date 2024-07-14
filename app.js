@@ -1,23 +1,27 @@
-// counter making
+// counter making functionality start
+
+var count = document.getElementById('increm')
 
 var val = 0
 function increment() {
   val++
-  var count = document.getElementById('increm').innerText = val
+  count.innerText = val
   if(val < 1){
-    var count = document.getElementById('increm').innerText = val = 0
+    count.innerText = val = 0
   }
 }
 
 function decrement() {
   val--
-  var count = document.getElementById('increm').innerText = val
+  count.innerText = val
   if(val < 1){
-    var count = document.getElementById('increm').innerText = val = 0
+    count.innerText = val = 0
   }
 }
 
 function reset() {
   val = 0
-  var count = document.getElementById('increm').innerText = val
+  count.innerText = val
 }
+
+// counter making functionality end
